@@ -5,7 +5,7 @@ const Card = ({ product }) => {
     <div className="border rounded-lg p-4 shadow-md bg-gray-100 relative">
       {product.aksiya && (
         <span className="absolute top-2 left-2 bg-red-500 text-white text-sm px-2 py-1 rounded">
-          -{product.aksiya}%
+          -{product.aksiya}
         </span>
       )}
 
